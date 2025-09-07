@@ -1,5 +1,1 @@
-HEAD
-hello my world
-
-hello
-vetka3
+Финальные изменения во втором файле
