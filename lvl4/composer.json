@@ -1,0 +1,10 @@
+{
+    "name": "user/pizza",
+    "autoload": {
+        "psr-4": {
+            "Pizza\\": "src/"
+        }
+    },
+    
+    "require": {}
+}
