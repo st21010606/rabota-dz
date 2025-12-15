@@ -1,0 +1,24 @@
+{
+    "name": "dev/pizza-store",
+    "description": "Библиотека для управления пиццерией",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PizzaStore\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "authors": [
+        {
+            "name": "Developer",
+            "email": "developer@example.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}

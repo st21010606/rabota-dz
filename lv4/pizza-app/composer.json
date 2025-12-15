@@ -1,0 +1,27 @@
+{
+    "name": "dev/pizza-app",
+    "description": "Приложение пиццерии",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4",
+        "dev/pizza-store": "*"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../pizza-store-lib"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PizzaApp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Developer",
+            "email": "developer@example.com"
+        }
+    ]
+}
