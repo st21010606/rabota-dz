@@ -1,0 +1,21 @@
+{
+    "name": "dev/user-management-system",
+    "description": "Система управления пользователями с PDO",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "UserManagementSystem\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "authors": [
+        {
+            "name": "Developer",
+            "email": "developer@example.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
