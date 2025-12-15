@@ -1,9 +1,0 @@
-{
-    "name": "vendor/bank-account",
-    "autoload": {
-        "psr-4": {
-            "BankAccount\\": "src/"
-        }
-    },
-    "require": {}
-}
