@@ -1,0 +1,20 @@
+{
+    "name": "dev/bank-account-system",
+    "description": "Система банковского счета с обработкой исключений",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BankAccountSystem\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "authors": [
+        {
+            "name": "Developer",
+            "email": "developer@example.com"
+        }
+    ]
+}
